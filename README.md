@@ -1,1 +1,1 @@
-# seminar
+# for seminar
