@@ -1,5 +1,10 @@
-\documentclass{article}
-\usepackage{amsmath}
+% platex micro_wave.tex
+% dvipdfmx micro_wave.dvi
+
+\documentclass{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+
 \pagestyle{empty}
 \begin{document}
 \begin{align*}
@@ -9,5 +14,77 @@
 \begin{align*}
   \frac{P_r}{P_t} = \left(\frac{\lambda}{4 \pi d}\right)^2 = \frac{1}{\left(\frac{4 \pi d}{\lambda}\right)^2}
 \end{align*}
+
+\begin{align*}
+  L_{fs} = 10 \log_{10} \left(\frac{4 \pi d}{\lambda}\right)^2 &= 20 \log_{10} \frac{4 \pi d}{\lambda} \\
+  &= 20 \log_{10} \frac{4 \pi d f}{c}\\
+  &= 20 \log_{10} \frac{4 \pi}{c} + 20 \log_{10} d + 20 \log_{10} f\\
+  &= 20 \log_{10} d + 20 \log_{10} f - 148 [\mathrm{dB}]\\
+  \because c = 3.0 \times 10^8
+\end{align*}
+
+\begin{tabular}{|c|c|c|c|}\hline
+      & 住宅環境 & オフィス環境 & 商業施設環境 \\ \hline
+  縦 $\times$ 横  & 10m $\times$ & 25m $\times$ 25m & 50m $\times$ 50m \\ \hline
+  高さ & 2.5m & 3m & 3m \\ \hline
+  床 & 木造,コンクリート & コンクリート & コンクリート \\ \hline
+  壁面 & 木造,耐火ボード & 金属,コンクリート & コンクリート \\ \hline
+\end{tabular}
+
+
+% \newcolumntype{Y}{&gt;{\centering\arraybackslash}X}
+% \begin{tabularx}{50mm}{|Y|Y|Y|Y|Y|Y|Y|}\hline
+%   環境 & \multicolumn{2}{|c|}{集合住宅内} & \multicolumn{2}{|c|}{戸建て住宅内} & \multicolumn{2}{|c|}{オフィス内} \\ \hline
+%   周波数[GHz] & 2.45 & 5.2 & 2.45 & 5.2 & 2.45 & 5.2 \\ \hline
+%   N & 28 & 30 & 28 & 28 & 30 & 31 \\ \hline
+%   $L_f[\mathrm{dB}]$ & $10^{*1}$ & $13^{*1}$ & $5$ & $7^{*2}$ & $14$ & $16$ \\ \hline
+%   備考 &
+%   \begin{tabular}{c}
+%     *1:コンクリート壁\\1枚あたり
+%   \end{tabular} &
+
+%   \begin{tabular}{c}
+%     *1:コンクリート壁\\1枚あたり
+%   \end{tabular} &
+
+%   & *2:木造モルタル
+%   & & \\ \hline
+% \end{tabularx}
+
+\begin{tabular*}{150mm}{|c|c|c|c|c|c|c|}\hline
+  環境 & \multicolumn{2}{|c|}{集合住宅内} & \multicolumn{2}{|c|}{戸建て住宅内} & \multicolumn{2}{|c|}{オフィス内} \\ \hline
+  周波数[GHz] & 2.45 & 5.2 & 2.45 & 5.2 & 2.45 & 5.2 \\ \hline
+  N & 28 & 30 & 28 & 28 & 30 & 31 \\ \hline
+  $L_f[\mathrm{dB}]$ & $10^{*1}$ & $13^{*1}$ & $5$ & $7^{*2}$ & $14$ & $16$ \\ \hline
+  備考 &
+  \begin{tabular}{c}
+    *1:コンクリート壁\\1枚あたり
+  \end{tabular} &
+
+  \begin{tabular}{c}
+    *1:コンクリート壁\\1枚あたり
+  \end{tabular} &
+
+  & *2:木造モルタル
+  & & \\ \hline
+\end{tabular*}
+
+\begin{tabular}{|c|c|c|c|c|c|c|}\hline
+  環境 & \multicolumn{2}{|c|}{集合住宅内} & \multicolumn{2}{|c|}{戸建て住宅内} & \multicolumn{2}{|c|}{オフィス内} \\ \hline
+  周波数[GHz] & 2.45 & 5.2 & 2.45 & 5.2 & 2.45 & 5.2 \\ \hline
+  N & 28 & 30 & 28 & 28 & 30 & 31 \\ \hline
+  $L_f[\mathrm{dB}]$ & $10^{*1}$ & $13^{*1}$ & $5$ & $7^{*2}$ & $14$ & $16$ \\ \hline
+  備考 &
+  \begin{tabular}{c}
+    *1:コンクリート壁\\1枚あたり
+  \end{tabular} &
+
+  \begin{tabular}{c}
+    *1:コンクリート壁\\1枚あたり
+  \end{tabular} &
+
+  & *2:木造モルタル
+  & & \\ \hline
+\end{tabular}
 
 \end{document}
