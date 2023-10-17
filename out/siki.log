@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.5)  18 OCT 2023 04:44
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.5)  18 OCT 2023 06:59
  restricted system commands enabled.
  file:line:error style messages enabled.
 **//192.168.1.9/pi/seminar/siki.tex
@@ -1044,32 +1044,19 @@ Overfull \hbox (3.59277pt too wide) in paragraph at lines 109--126
 [][][][] 
  []
 
-[1
-Non-PDF special ignored!
-
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./out/siki.aux)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
- ***********
-Package rerunfilecheck Info: File `siki.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-)
+//192.168.1.9/pi/seminar/siki.tex:136: Missing $ inserted.
+<inserted text> 
+$
+l.136 
+    
 
 Here is how much of LuaTeX's memory you used:
- 23263 strings out of 477259
+ 23256 strings out of 477259
  125244,1977958 words of node,token memory allocated
- 1119 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 216 attribute, 59 glue_spec, 32 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:7,2:22015,3:125,4:668,5:207,6:21,7:4504,8:36,9:2226
+ 67679 words of node memory still in use:
+   454 hlist, 41 vlist, 353 rule, 9 local_par, 2 dir, 94 math, 995 glue, 72 kern, 45 penalty, 2 noad, 2 fence, 1 sub_box, 1 sub_mlist, 2 delim, 577 glyph, 21093 attribute, 70 glue_spec, 2096 attribute_list, 1 temp, 1 write, 243 user_defined, 1 pdf_dest nodes
+   avail lists: 1:7,2:5,3:53,4:7,5:8,6:1,7:11,8:41,9:11
  44050 multiletter control sequences out of 65536+600000
  54 fonts using 48073655 bytes
- 125i,12n,128p,1847b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on siki.pdf (1 page, 87384 bytes).
-
-PDF statistics: 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+ 125i,12n,128p,1847b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+//192.168.1.9/pi/seminar/siki.tex:136:  ==> Fatal error occurred, no output PDF file produced!
