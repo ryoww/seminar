@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.5)  25 OCT 2023 12:41
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.5)  25 OCT 2023 13:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **//192.168.1.9/pi/seminar/siki.tex
@@ -1049,13 +1049,13 @@ Non-PDF special ignored!
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 207.
+(Font)              scaled to size 13.31586pt on input line 223.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 207.
+(Font)              scaled to size 13.31586pt on input line 223.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic-Medium.otf(0)/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 207.
+(Font)              scaled to size 13.31586pt on input line 223.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic-Medium.otf(0)/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 207.
+(Font)              scaled to size 13.31586pt on input line 223.
 (load cache: extra_lmsans12-regular.luc) [2] (./out/siki.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -1068,14 +1068,14 @@ Package rerunfilecheck Info: File `siki.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  23279 strings out of 477259
  156562,1977958 words of node,token memory allocated
- 1182 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 238 attribute, 62 glue_spec, 34 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:18,2:26871,3:165,4:838,5:247,6:35,7:5796,8:47,9:2829,10:8
+ 1225 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 260 attribute, 61 glue_spec, 36 attribute_list, 1 write, 14 user_defined nodes
+   avail lists: 1:18,2:26847,3:165,4:838,5:248,6:35,7:5796,8:47,9:2829,10:8
  44064 multiletter control sequences out of 65536+600000
  58 fonts using 55903991 bytes
  125i,14n,128p,1847b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on siki.pdf (2 pages, 104436 bytes).
+Output written on siki.pdf (2 pages, 104800 bytes).
 
 PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
