@@ -204,17 +204,48 @@
     \end{bmatrix}^H
 \end{align*}
 
+\begin{align*}
+  H &= UDV^H\\
+    &=
+    \begin{bmatrix}
+      u_1 & \cdots & u_n
+    \end{bmatrix}
+    \begin{bmatrix}
+      \sqrt{\lambda_1} & \cdots & 0\\
+      \vdots & \ddots & \vdots \\
+      0 & \cdots & \sqrt{\lambda_2}
+    \end{bmatrix}
+    \begin{bmatrix}
+      v_1 & \cdots & v_n
+    \end{bmatrix}^H
+\end{align*}
+
+\begin{align*}
+  D &=
+  \begin{bmatrix}
+    \sqrt{\lambda_1} & 0\\
+    0 & \sqrt{\lambda_2}
+  \end{bmatrix}
+\end{align*}
+
+\begin{align*}
+  \tilde{s} &= U^H(HVs(t) + n(t))\\
+        &= U^H(UDV^HVs(t) + n(t))\\
+        &= (U^HU)D(V^HV)s(t) + U^Hn(t)\\
+        &= Ds(t) + U^Hn(t)
+\end{align*}
+
 \begin{equation*}
   U^H =
   \begin{bmatrix}
-    u_1 & u_2
+    u_1 & \cdots & u_n
   \end{bmatrix}^H
 \end{equation*}
 
 \begin{equation*}
   V =
   \begin{bmatrix}
-    v_1 & v_2
+    v_1 & \cdots & v_n
   \end{bmatrix}
 \end{equation*}
 
@@ -238,6 +269,13 @@ $\sqrt{\lambda_1},\sqrt{\lambda_2},\sqrt{\lambda_j}$
   \end{bmatrix}
 \end{equation*}
 
+\begin{align*}
+  HW &=
+    \begin{bmatrix}
+      H^{(1)}W^{(1)} & 0_{N_R \times (N_T - N_R)}\\
+      0_{N_R \times (N_T - N_R)} & H^{(2)}W^{(2)}
+    \end{bmatrix}
+\end{align*}
 % \section*{株式会社 ゼネット}
 % \begin{itemize}
 %   \item 設立\\1999年
